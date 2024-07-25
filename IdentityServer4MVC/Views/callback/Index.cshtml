@@ -1,0 +1,11 @@
+﻿@using static IdentityServer4MVC.Controllers.callbackController
+@model UserInfoResult;
+<h1>用户信息</h1>
+
+<ul>
+    <li>sub:@Model.sub</li>
+    <li>name:@Model.name</li>
+    <li>email:@Model.email</li>
+    <li>website:@Model.website</li>
+</ul>
+
